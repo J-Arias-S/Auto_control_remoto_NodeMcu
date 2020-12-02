@@ -1,0 +1,39 @@
+//INICIA LA PAGINA
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Control de AUTO</title>
+</head>
+
+
+<body style='font-family: Century gothic; width: 800;'>
+<center>
+<div style='box-shadow: 0px 0px 20px 8px rgba(0,0,0,0.22); padding: 20px; width: 300px; display: inline-block; margin: 30px;'> 
+
+<h1>CONTROL REMOTO</h1>
+
+<h2>Movimientos</h2>
+  
+<button style='background-color:green;  color:white; border-radius: 10px; border-color: rgb(0, 0, 0);' 
+type='button' onClick=location.href='/OP=1'><h2>Avanzar</h2>
+</button> 
+<button style='background-color:blue; color:white; border-radius: 10px; border-color: rgb(0, 0, 0);' 
+type='button' onClick=location.href='/OP=2'><h2>Retroceder</h2>
+</button>
+</button> 
+<button style='background-color:purple; color:white; border-radius: 10px; border-color: rgb(0, 0, 0);' 
+type='button' onClick=location.href='/OP=3'><h2>Izquierda</h2>
+</button>
+<button style='background-color:red; color:white; border-radius: 10px; border-color: rgb(0, 0, 0);' 
+type='button' onClick=location.href='/OP=4'><h2>Derecha</h2>
+</button>
+</div>
+</center>
+</body>
+</html>
+
+//FIN DE LA PAGINA
